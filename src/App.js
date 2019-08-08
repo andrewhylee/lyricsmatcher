@@ -14,7 +14,7 @@ function App() {
           <div className="container">
             <Switch>
               <Route exact path="/" component={Index} />
-
+                <h1>HAHAHAHAHA</h1>
             </Switch>
           </div>
         </>
