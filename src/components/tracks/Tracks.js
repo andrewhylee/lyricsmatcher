@@ -11,7 +11,7 @@ class Tracks extends Component {
                 {value => {
                     
                     console.log(value.track_list)
-                    if(value.track_list == null || value.track_list.length == 0){
+                    if(value.track_list === null || value.track_list.length === 0){
                         return <SpinWheel />
                     }else {
                         return (
